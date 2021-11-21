@@ -7,29 +7,25 @@
                     <div class="single-widget">
                         <h2>Apie Jotva</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Informacija</a></li>
-                            <li><a href="#">Darbas</a></li>
+                            <li><a href="{{route('istorija')}}">Informacija</a></li>
+                            <li><a href="{{route('kontaktai')}}">Kontaktai</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>Apie Jotva</h2>
+                        <h2>Dalyviams</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Informacija</a></li>
-                            <li><a href="#">Darbas</a></li>
-                            <li><a href="#">Vieta</a></li>
-                            <li><a href="#">Bilietai</a></li>
+                            <li><a href="#">Grafikas</a></li>
+                            <li><a href="#">Rūbai</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>Apie Jotva</h2>
+                        <h2>Kiti</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Informacija</a></li>
                             <li><a href="#">Darbas</a></li>
-                            <li><a href="#">Vieta</a></li>
                             <li><a href="#">Bilietai</a></li>
                         </ul>
                     </div>
