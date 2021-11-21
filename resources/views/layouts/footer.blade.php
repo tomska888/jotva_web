@@ -9,8 +9,6 @@
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">Informacija</a></li>
                             <li><a href="#">Darbas</a></li>
-                            <li><a href="#">Vieta</a></li>
-                            <li><a href="#">Bilietai</a></li>
                         </ul>
                     </div>
                 </div>
