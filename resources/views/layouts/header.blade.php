@@ -61,6 +61,7 @@
                 </div>
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
+                        <h1>𐌂𐋅Ꝋ𐌓𐌄ꝊᏵ𐌓𐌀𐌅𐌉𐌍𐌉𐌔 𐌔𐌀𐌌𐌁𐌵𐌓𐌉𐌔 "ᏝꝊ𐌕ᕓ𐌀"</h1>
                         <ul class="nav navbar-nav">
 {{--
                             @if(Auth::check())
