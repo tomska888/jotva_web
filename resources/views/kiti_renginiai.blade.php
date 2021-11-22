@@ -111,43 +111,22 @@
                 <div class="col-sm-9 padding-right">
                     <div class="features_items"><!--features_items-->
                         <h2 class="title text-center">Kiti renginiai</h2>
-
-                        @foreach ($products as $product)
-
-                            <div class="col-sm-4">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-
-                                            <img src="{{ asset('images/home/'.$product->image) }}" alt="" />
-                                            {{--                                    <h2>{{$product->price}}</h2>--}}
-                                            <span>{{ $product->name }}</span>
-                                            {{--<p>{{$product->description}}</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>--}}
-                                        </div>
-                                        {{--<div class="product-overlay">
-                                            <div class="overlay-content">
-                                                <h2>{{$product->price}}</h2>
-                                                <p>{{ $product->name }}</p>
-                                                <a href="{{route('AddToCartProduct',['id'=>$product->id])}}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                            </div>
-                                        </div>--}}
-                                    </div>
-                                    {{--<div class="choose">
-                                        <ul class="nav nav-pills nav-justified">
-                                            <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                            <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                        </ul>
-                                    </div>--}}
-                                </div>
-                            </div>
-
-                        @endforeach
-
+                        <div class="w3-container">
+                            <ul class="w3-ul w3-card w3-center" style="width: 30%; margin: auto">
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 1</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                                <li style="list-style-type: none"><a href="{{route('kiti_renginiai')}}">Renginys 2</a></li>
+                            </ul>
+                        </div>
                     </div><!--features_items-->
-
-                {{$products->links()}}<!--pagination-->
-
                 </div>
             </div>
         </div>

@@ -256,7 +256,7 @@ a#scrollUp i{
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
 	background:none;
-	color:#fdb45e;
+	color: #a52a2a;
 }
 
 .search_box input {
@@ -2550,10 +2550,10 @@ ul.breadcrumb li+li:before {
   /*content: "/\00a0";*/
 }
 ul.breadcrumb li a {
-  color: #0275d8;
+  color: #a52a2a;
   text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: #a52a2a;
   text-decoration: underline;
 }

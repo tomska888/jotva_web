@@ -14,6 +14,7 @@
     <link href="{{asset('css/main.css')}}" rel="stylesheet">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('https://www.w3schools.com/w3css/4/w3.css')}}" rel="stylesheet" >
     <!--[if lt IE 9]>
     <script src="{{asset('js/html5shiv.js')}}"></script>
     <script src="{{asset('js/respond.min.js')}}"></script>
