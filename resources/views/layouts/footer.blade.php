@@ -26,7 +26,7 @@
                         <h2>Kiti</h2>
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">Darbas</a></li>
-                            <li><a href="#">Bilietai</a></li>
+                            <li><a href="{{route('bilietai')}}">Bilietai</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
 </footer><!--/Footer-->
 
 
-
+<script src="{{asset('js/script.js')}}"></script>
 <script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/jquery.scrollUp.min.js')}}"></script>

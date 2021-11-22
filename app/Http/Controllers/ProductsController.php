@@ -60,6 +60,13 @@ class ProductsController extends Controller
         return view("kontaktai",compact("products"));
     }
 
+    public function bilietai(){
+        $products = DB::table('products')->get();
+        return view("bilietai",compact("products"));
+    }
+
+
+
 
 
     public function search(Request $request){

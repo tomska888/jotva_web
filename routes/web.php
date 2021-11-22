@@ -37,6 +37,8 @@ Route::get('jotva/kiti_renginiai', ["uses"=>"ProductsController@kiti_renginiai",
 //kontaktai
 Route::get('jotva/kontaktai', ["uses"=>"ProductsController@kontaktai", "as"=> "kontaktai"]);
 
+//bilietai
+Route::get('jotva/bilietai', ["uses"=>"ProductsController@bilietai", "as"=> "bilietai"]);
 
 
 
