@@ -148,7 +148,7 @@
                             Įdomu, kad tuokiantis visuomenei nusipelniusioms poroms bei kuriam iš „Jotvos" šokėjų, ansambliečiai ruošia prie Punsko lietuvių
                             kultūros namų iškilmingus vartus.</p>
 
-                    <h4>Dabartis? XD</h4>
+                    <h4>Dabartis</h4>
                     <p>Šiuo metu „Jotvos" sambūryje esą 10 įvairaus amžiaus grupių, iš viso per 150 šokėjų. Labai džiugu, kad prie šio gausaus būrio dalyvių
                         dar prisijungia buvę sambūrio šokėjai - vadinamoji studentų grupė. Nesvarbu, kur bestudijuotų: Vilniuje, Kaune, Varšuvoje ar Balstogėje,
                         jaunimas organizuojasi repeticijas, renkasi kurį nors savaitgalį į Lietuvių kultūros namus. Matyt, noras ir toliau bendrauti "lietuvių

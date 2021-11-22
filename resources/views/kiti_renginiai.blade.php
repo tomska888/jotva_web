@@ -110,7 +110,7 @@
 
                 <div class="col-sm-9 padding-right">
                     <div class="features_items"><!--features_items-->
-                        <h2 class="title text-center">(kolkas paveikslukai)&nbsp;</h2>
+                        <h2 class="title text-center">Kiti renginiai</h2>
 
                         @foreach ($products as $product)
 
@@ -121,7 +121,7 @@
 
                                             <img src="{{ asset('images/home/'.$product->image) }}" alt="" />
                                             {{--                                    <h2>{{$product->price}}</h2>--}}
-                                            <p>{{ $product->name }}</p>
+                                            <span>{{ $product->name }}</span>
                                             {{--<p>{{$product->description}}</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>--}}
                                         </div>

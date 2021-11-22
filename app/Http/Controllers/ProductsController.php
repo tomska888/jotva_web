@@ -42,7 +42,7 @@ class ProductsController extends Controller
     }
 
     public function kiti_renginiai(){
-        $products = DB::table('products')->paginate(12);
+        $products = DB::table('kiti_renginiai')->paginate(12);
         return view("kiti_renginiai",compact("products"));
     }
 
