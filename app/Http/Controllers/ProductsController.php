@@ -14,16 +14,11 @@ use Illuminate\Support\Facades\Mail;
 
 class ProductsController extends Controller
 {
-    //
-
-
     public function index(){
-
      /*   $products = [0=> ["name"=>"Iphone","category"=>"smart phones","price"=>1000],
             1=> ["name"=>"Galaxy","category"=>"tablets","price"=>2000],
             2=> ["name"=>"Sony","category"=>"TV","price"=>3000]];*/
-
-        $products = Product::paginate(1);
+        $products = Product::get();
         return view("jotva",compact("products"));
     }
 
@@ -33,36 +28,30 @@ class ProductsController extends Controller
     }
 
     public function istorija(){
-       $products = DB::table('products')->get();
-        return view("istorija",compact("products"));
+        return view("istorija");
     }
 
     public function motinos_diena(){
-        $products = Product::paginate(12);
-        $products = DB::table('products')->get();
+        $products = DB::table('motinos_diena')->paginate(12);
         return view("motinos_diena",compact("products"));
     }
 
     public function velines(){
-        $products = Product::paginate(12);
-        $products = DB::table('products')->get();
+        $products = DB::table('velines')->paginate(12);
         return view("velines",compact("products"));
     }
 
     public function kiti_renginiai(){
-        $products = Product::paginate(12);
-        $products = DB::table('products')->get();
+        $products = DB::table('products')->paginate(12);
         return view("kiti_renginiai",compact("products"));
     }
 
     public function kontaktai(){
-        $products = DB::table('products')->get();
-        return view("kontaktai",compact("products"));
+        return view("kontaktai");
     }
 
     public function bilietai(){
-        $products = DB::table('products')->get();
-        return view("bilietai",compact("products"));
+        return view("bilietai");
     }
 
 
@@ -75,8 +64,6 @@ class ProductsController extends Controller
         $products = Product::where('name',"Like",$searchText."%")->paginate(3);
         return view("jotva",compact("products"));
     }
-
-
 
 
 
@@ -159,11 +146,6 @@ class ProductsController extends Controller
 
     }
     
-    
-
-
-
-
 
 
        public function decreaseSingleProduct(Request $request,$id){
@@ -189,14 +171,6 @@ class ProductsController extends Controller
 
 
     }
-
-
-
-    
-
-
-
-
 
 
 
@@ -321,11 +295,6 @@ class ProductsController extends Controller
 
 
     }
-
-
-
-
-
 
 
       private function sendMail(){

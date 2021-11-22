@@ -121,7 +121,7 @@
 
                                             <img src="{{ asset('images/home/'.$product->image) }}" alt="" />
                                             {{--                                    <h2>{{$product->price}}</h2>--}}
-                                            <p>{{ $product->name }}</p>
+                                            <span>{{ $product->name }}</span>
                                             {{--<p>{{$product->description}}</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>--}}
                                         </div>
@@ -146,7 +146,7 @@
 
                     </div><!--features_items-->
 
-{{--                {{$products->links()}}<!--pagination-->--}}
+                {{$products->links()}}<!--pagination-->
 
                 </div>
             </div>

@@ -146,7 +146,7 @@
 
                     </div><!--features_items-->
 
-{{--                {{$products->links()}}<!--pagination-->--}}
+                {{$products->links()}}<!--pagination-->
 
                 </div>
             </div>
