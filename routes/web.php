@@ -40,6 +40,8 @@ Route::get('jotva/kontaktai', ["uses"=>"ProductsController@kontaktai", "as"=> "k
 //bilietai
 Route::get('jotva/bilietai', ["uses"=>"ProductsController@bilietai", "as"=> "bilietai"]);
 
+//grafikas
+Route::get('jotva/grafikas', ["uses"=>"ProductsController@grafikas", "as"=> "grafikas"]);
 
 
 

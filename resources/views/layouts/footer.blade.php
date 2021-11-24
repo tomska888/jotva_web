@@ -16,7 +16,7 @@
                     <div class="single-widget">
                         <h2>Dalyviams</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Grafikas</a></li>
+                            <li><a href="{{route('grafikas')}}">Grafikas</a></li>
                             <li><a href="#">Rūbai</a></li>
                         </ul>
                     </div>

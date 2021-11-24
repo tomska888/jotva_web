@@ -54,6 +54,10 @@ class ProductsController extends Controller
         return view("bilietai");
     }
 
+    public function grafikas(){
+        return view("grafikas");
+    }
+
 
 
 
